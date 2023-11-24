@@ -1,0 +1,196 @@
+ @import url('normalize.css');
+ .container {
+     max-width: 100%
+ }
+ 
+ .container {
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 45px;
+     padding-right: 45px
+ }
+ 
+ .retweet {
+     font-style: normal
+ }
+ 
+ .retweet {
+     border-radius: 16px;
+     background-color: #ffffff;
+     box-shadow: 0 12px 60px rgba(0, 0, 0, 7%)
+ }
+ 
+ .retweet_url {
+     color: #202020;
+     text-decoration: none
+ }
+ 
+ .retweet_row {
+     display: flex;
+     padding: 25px
+ }
+ 
+ .retweet_thumbnail {
+     width: 42px;
+     height: 42px;
+     padding: 2px;
+     margin-left: 20px
+ }
+ 
+ .retweet_thumbnail {
+     border-radius: 50%;
+     background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%)
+ }
+ 
+ .retweet_username {
+     padding-top: 3px
+ }
+ 
+ .retweet_firstname {
+     font-size: 16px;
+     font-weight: bold
+ }
+ 
+ .retweet_date {
+     padding-top: 4px
+ }
+ 
+ .retweet_time {
+     font-size: 13px;
+     font-weight: 300
+ }
+ 
+ .retweet_paragraph {
+     padding: 0 30px
+ }
+ 
+ .retweet_paragraph {
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 1.9;
+     text-align: justify
+ }
+ 
+ .retweet_icons {
+     padding: 15px 30px;
+     padding-bottom: 0
+ }
+ 
+ .retweet_space {
+     justify-content: space-between
+ }
+ 
+ .retweet_icon {
+     width: 24px;
+     height: 24px
+ }
+ 
+ .retweet_icon {
+     background-size: cover;
+     background-repeat: no-repeat
+ }
+ 
+ .heart_ico {
+     background-image: url('/assets/images/icons8-heart-30.png')
+ }
+ 
+ .retweet_ico {
+     background-image: url('/assets/images/icons8-retweet-30.png')
+ }
+ 
+ .bookmark_ico {
+     background-image: url('/assets/images/icons8-bookmark-30.png')
+ }
+ 
+ .share_ico {
+     background-image: url('/assets/images/icons8-share-30.png')
+ }
+ 
+ .retweet_tools {
+     border-top: 1px #eeeeee solid
+ }
+ 
+ .retweet_tools .retweet_row {
+     flex-direction: column
+ }
+ 
+ .retweet_field {
+     margin-bottom: 16px
+ }
+ 
+ .retweet_field .field,
+ .retweet_field .retweet_message {
+     width: 90%;
+     margin: 0 7px;
+     padding: 16px 12px
+ }
+ 
+ .retweet_field input[type="url"] {
+     direction: ltr
+ }
+ 
+ .retweet_field input[type="url"]::placeholder {
+     direction: rtl;
+     text-align: right
+ }
+ 
+ .retweet_field .field,
+ .retweet_field .retweet_message {
+     font-size: 15px;
+     font-weight: 300;
+     font-family: inherit
+ }
+ 
+ .retweet_field .field,
+ .retweet_field .retweet_message {
+     border-radius: 6px;
+     border: 1px #eeeeee solid;
+     background-color: #ffffff
+ }
+ 
+ .retweet_field .retweet_message {
+     resize: none;
+     outline: none;
+     height: 150px
+ }
+ 
+ .retweet_message::placeholder {
+     opacity: 50%
+ }
+ 
+ .retweet_btn {
+     width: 100%;
+     display: block;
+     font-family: inherit
+ }
+ 
+ .retweet_btn {
+     border: none;
+     outline: none;
+     padding: 15px;
+     margin-bottom: 15px
+ }
+ 
+ .retweet_btn {
+     color: #ffffff;
+     border-radius: 9px;
+     background-color: #2E4053;
+     border-bottom: 4px rgba(0, 0, 0, 7%) solid
+ }
+ 
+ textarea {
+     direction: ltr !important;
+     text-align: right !important
+ }
+ 
+ textarea {
+     resize: none;
+     height: 200px;
+     max-height: 200px
+ }
+ 
+ textarea {
+     font-size: 12px;
+     line-height: 2em;
+     letter-spacing: 2px
+ }

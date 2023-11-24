@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="">
+
+            <blockquote class="retweet">
+                <a href="#" class="retweet_url">
+                    <div class="retweet_row">
+                        <img src="" class="retweet_thumbnail" alt="" />
+                        <div class="retweet_username">
+                            <span class="retweet_firstname">ناشناس</span>
+                            <div class="retweet_date">
+                                <time class="retweet_time">۲۴ ساعت پیش</time>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="retweet_paragraph">
+                        سلام ه دنیای وردپرس خوش آمدید سلام ه دنیای وردپرس خوش آمدید سلام ه دنیای وردپرس خوش آمدید
+                    </div>
+                    <div class="retweet_icons">
+                        <div class="retweet_row retweet_space">
+                            <div class="retweet_icon heart_ico"></div>
+                            <div class="retweet_icon retweet_ico"></div>
+                            <div class="retweet_icon bookmark_ico"></div>
+                            <div class="retweet_icon share_ico"></div>
+                        </div>
+                    </div>
+                </a>
+            </blockquote>
+
+            <div class="retweet_tools">
+                <div class="retweet_row">
+
+                    <div class="retweet_field">
+                        <input type="url" id="retweet_link" class="field" placeholder="لینک مطلب" required />
+                    </div>
+
+                    <div class="retweet_field">
+                        <input type="url" id="retweet_image" class="field" placeholder="لینک تصویر نویسنده" required />
+                    </div>
+
+                    <div class="retweet_field">
+                        <input type="text" id="retweet_user" class="field" placeholder="نام نویسنده" required />
+                    </div>
+
+                    <div class="retweet_field">
+                        <input type="text" id="retweet_time" class="field" placeholder="تاریخ انتشار" required />
+                    </div>
+
+                    <div class="retweet_field">
+                        <textarea class="retweet_message" id="retweet" placeholder="محتوا رو پیست کنید" required></textarea>
+                    </div>
+
+                </div>
+                <button onclick="retweetcode()" class="retweet_btn">ساختن</button>
+                <textarea id="retweetcoding"></textarea>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
